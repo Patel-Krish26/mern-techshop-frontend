@@ -1,0 +1,80 @@
+/* Auth Pages - Exact Match with Original HTML */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.logsign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px 15px 50px;
+}
+
+.loginCard, .signupCard {
+    max-width: 450px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+    .loginCard .card-body, .signupCard .card-body {
+        padding: 2.5rem;
+    }
+
+    .loginCard h2, .signupCard h2 {
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+
+.form-label {
+    color: white !important;
+    font-weight: 500;
+}
+
+.loginInput, .signupInp {
+    border-radius: 12px;
+    border: none;
+    padding: 14px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+    .loginInput:focus, .signupInp:focus {
+        outline: none;
+        box-shadow: 0 0 15px #ffdd59;
+        background-color: white;
+        transform: scale(1.02);
+    }
+
+.loginBtn, .signupBtn {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 12px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+    .loginBtn:hover, .signupBtn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(255, 125, 193, 0.6);
+    }
+
+a.text-white {
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+    a.text-white:hover {
+        color: #ffdd59 !important;
+    }
